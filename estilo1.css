@@ -1,0 +1,61 @@
+html{
+    scroll-behavior: smooth
+}
+body{
+    background-color: #23272A;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Cambria;
+}
+.NavBar{
+    word-spacing: 300px;
+    max-width: 1300px;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #58f29d5e;
+    border: 2px solid #58f29d29;
+    font-family: Cambria;
+    width: 100%;
+}
+img{
+    max-width: 200px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.Lista{
+    margin-left: 550px;
+    margin-right: 550px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #58f29d5e;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #58f29d5e;
+}
+.Divisórias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pseudo-classe{
+    margin-left:300px;
+    margin-right:300px;
+    text-align: left;
+}
+.Box{
+    margin-left: 300px;
+    margin-right: 300px;
+}
